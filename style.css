@@ -1,0 +1,99 @@
+	html, body { 
+	margin: 0;
+	border: 0;
+	font-size: 62.5%;
+	font-family: "Gaegu", cursive;
+}
+
+.game {
+	text-align: center;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	color: #006bab;
+	font-size: 6rem;
+	margin-top: 0;
+	margin-bottom: 2rem;
+
+}
+
+button {
+	background-color: #b6ebab;
+	color: #e00d02;
+	padding: 0.3em 0.9em;
+	font-size: 3rem;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	margin: 0.5em 0;
+	font-family: "Gaegu", cursive;
+}
+
+button:hover, button:focus {
+	background-color: #e00d02;
+	color: #fff;
+}
+
+h2 {
+
+	font-family: "Gaegu", cursive;
+	font-size: 4rem;
+	color: #fc5814;
+	margin: 1rem 0;
+
+}
+
+.grid {
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	border: solid 2px #FFB511;
+	margin: 0 auto;
+
+}
+
+.square {
+	width: 20px;
+	height: 20px;
+}
+
+.snake {
+	background-color: #087300;
+}
+
+.apple {
+	background-color: #e00d02;
+}
+
+#restart-game {
+	display: none;
+}
+
+#footer {
+	background-color: #ede5df;
+	margin: 1.4rem 0 0 0;
+	font-family: "Jost", sans-serif;
+	bottom: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 1.5rem;
+	font-size: 1.4rem;
+	text-align: center;
+	font-weight: 400;
+	color: #00A95C;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #006bab;
+}
+
+a:hover {
+	color: #FFB511;
+}
