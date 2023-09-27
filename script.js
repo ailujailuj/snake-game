@@ -10,7 +10,7 @@ let direction = 1
 const width = 20
 let appleIndex = 0
 let score = 0;
-let intervalTime = 900
+let intervalTime = 700
 let speed = 0.9
 let timerId = 0
 
